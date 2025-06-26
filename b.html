@@ -134,6 +134,7 @@ function gtag_report_conversion(url) {
         .primary-header-section {
             text-align: center;
             margin-bottom: 40px;
+			margin-top:120px
         }
 
         .ai-technology-headline {
@@ -398,9 +399,30 @@ function gtag_report_conversion(url) {
                 font-size: 1.1rem;
             }
         }
+		
+		 .fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #cf1717;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            z-index: 1000;
+        }
+        .content {
+            margin-top: 50px; /* 留出空间给固定头部 */
+            padding: 20px;
+        }
+		
     </style>
 </head>
 <body>
+ <div class="fixed-header">
+       Die von diesem Tool bereitgestellte Aktienanalyse basiert auf algorithmischen Modellen und historischen Daten und dient nur zu Informationszwecken und stellt keine Anlageberatung dar.
+    </div>
+	
     <div class="cosmic-grid-background"></div>
     <div class="stellar-particles"></div>
     
@@ -428,21 +450,19 @@ function gtag_report_conversion(url) {
             <h3 class="risk-warning-headline">⚠️ Wichtiger Risikohinweis</h3>
             
             <p class="compliance-disclaimer-text">
-              Nicht-professionelle Beratung: Die von diesem Tool bereitgestellte Aktienanalyse basiert auf algorithmischen Modellen und historischen Daten. Sie dient ausschließlich zu Informationszwecken und stellt keine Anlageberatung, Wertpapierempfehlung oder Handelsgrundlage dar. Künstliche Intelligenz hat Einschränkungen und kann das Urteil professioneller Finanzberater nicht ersetzen.
+                Dieser Service bietet nur allgemeine Marktinformationen und stellt keine Anlageberatung oder -empfehlung dar.
             </p>
             
             <p class="compliance-disclaimer-text">
-              Risiko auf eigene Gefahr: Der Wertpapiermarkt birgt inhärente Risiken. Nutzer tragen die volle Verantwortung für Anlageentscheidungen, die auf den Ergebnissen dieses Tools basieren. Das Unternehmen und der Technologieanbieter übernehmen keine rechtliche Verantwortung für direkte oder indirekte Verluste, die durch die Nutzung oder das Vertrauen in diesen Service entstehen.
+                • Finanzmärkte bergen Risiken, Sie könnten einen Teil oder Ihr gesamtes investiertes Kapital verlieren. Alle gezeigten Beispiele sind historische Datenanalysen und stellen keine Garantie für zukünftige Erträge dar.
             </p>
             
             <p class="compliance-disclaimer-text">
-               Daten-Haftungsausschluss
-Die Analyseergebnisse basieren auf öffentlichen Marktdaten und können verspätet, fehlerhaft oder unvollständig sein. Wir übernehmen keine Garantie für die Richtigkeit und Vollständigkeit der Daten und versprechen keine zeitnahe Aktualisierung der Informationen.
+                • Anleger sollten vorsichtige Entscheidungen basierend auf ihrer Risikotoleranz treffen. Alle Informationen sind objektive Tatsachendarstellungen und stellen keine Anlageberatung dar.
             </p>
             
             <p class="compliance-disclaimer-text">
-                • KI-Analysetools bieten nur Wahrscheinlichkeitsberechnungen basierend auf historischen Daten und algorithmischen Modellen und stellen keine Form von Anlageberatung dar.Technische Einschränkungen
-Das KI-Modell kann durch algorithmische Verzerrungen, Marktextreme oder Black-Swan-Ereignisse beeinflusst werden. Die Analyseergebnisse spiegeln nicht die tatsächliche zukünftige Wertentwicklung wider. Historische Renditen stellen keine zukünftigen Renditen dar.
+                • KI-Analysetools bieten nur Wahrscheinlichkeitsberechnungen basierend auf historischen Daten und algorithmischen Modellen und stellen keine Form von Anlageberatung dar.
             </p>
             
             <p class="compliance-disclaimer-text">
