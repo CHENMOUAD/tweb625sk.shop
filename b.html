@@ -2,6 +2,34 @@
 <html lang="de">
 <head>
 	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17268690155"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17268690155');
+</script>
+
+	<!-- Event snippet for DEKI conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17268690155/Lik1CMujw-MaEOuZrapA',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+	
+	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17264717646"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
